@@ -15,12 +15,12 @@ tools/
 └── fatpacker
 ```
 
-Your lovely fatpacker script depends on lib/fatpacker/cli.py but you want to
-make your code easy to distribute! Not only that, setup.py has external
-dependencies. How do we get this to our users in the simplest possible manner.
+Your lovely fatpacker script depends on `lib/fatpacker/cli.py` but you want to
+make your code easy to distribute! Not only that, `setup.py` has external
+dependencies. How do we get this to our users in the simplest possible manner?
 
 Enter: fatpacker. Fatpacker will pull together all of your dependencies with
-spindrift and push them into a single, runnable file.
+[spindrift](https://github.com/f0rk/spindrift) and push them into a single, runnable file.
 
 install
 =======
